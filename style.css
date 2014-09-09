@@ -32,25 +32,25 @@ p{
 
 /* Layout */
 
-header{
+header {
   width: 100%;
   padding: 12px;
 }
 
-main{
+main {
   width: 68%;
   margin: 10px 2% 10px 5%;
   float: left;
 }
 
-aside{
+aside {
   margin: 10px 0 10px 0;
   width: 21%;
   float: left;
   padding: 6px;
 }
 
-footer{
+footer {
   height: 100px;
   width: 100%;
   background-color: darkgray;
@@ -59,55 +59,55 @@ footer{
 
 /* Module */
 
-.mainNav{
+.mainNav {
   border-top: 4px solid black;
 }
 
 
-.inlineNavBar li{
+.inlineNavBar li {
   display: inline-block;
   font-size: 2em;
   margin-right: 2em;
 }
 
-.feature__mainImage{
+.feature__mainImage {
   width: 100%;
   margin: 0;
   border: 1px solid black;
 }
 
-.feature_title{
+.feature_title {
   font-weight: bold;
   font-size: 2em;
   margin: 10px 6px 8px 12px;
 }
 
-.feature_teaser{
+.feature_teaser {
   margin: 0 6px 8px 12px;
 }
 
-.otherArticle{
+.otherArticle {
   width: 100%;
   border-bottom: 1px solid gray;
 }
 
-.otherArticle h1{
+.otherArticle h1 {
   text-transform: uppercase;
   color: red;
   margin-left: 10px;
 }
 
-.otherArticle h2{
+.otherArticle h2 {
   font-size: 1.6em;
   margin-left: 10px;
 }
 
-.footerNav{
+.footerNav {
   text-align: center;
   padding-top: 10px;
 }
 
-.footerNav li{
+.footerNav li {
   color: #FFF;
   font-size: 1em;
 }
