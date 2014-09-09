@@ -76,13 +76,13 @@ footer {
   border: 1px solid black;
 }
 
-.feature_title {
+.feature__title {
   font-weight: bold;
   font-size: 2em;
   margin: 10px 6px 8px 12px;
 }
 
-.feature_teaser {
+.feature__teaser {
   margin: 0 6px 8px 12px;
 }
 
