@@ -1,8 +1,6 @@
 /* Base */
 
-body > *{
-  border: 5px solid red;
-}
+
 
 html{
   background-color: #FFF;
@@ -55,7 +53,7 @@ aside{
 footer{
   height: 100px;
   width: 100%;
-  background-color: darkgrey;
+  background-color: darkgray;
   clear: both;
 }
 
@@ -72,9 +70,10 @@ footer{
   margin-right: 2em;
 }
 
-.feature_mainImage{
-  min-width: 100%;
+.feature__mainImage{
+  width: 100%;
   margin: 0;
+  border: 1px solid black;
 }
 
 .feature_title{
@@ -84,12 +83,12 @@ footer{
 }
 
 .feature_teaser{
-  margin: 0px 6px 8px 12px;
+  margin: 0 6px 8px 12px;
 }
 
 .otherArticle{
   width: 100%;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid gray;
 }
 
 .otherArticle h1{
@@ -105,13 +104,16 @@ footer{
 
 .footerNav{
   text-align: center;
+  padding-top: 10px;
 }
 
 .footerNav li{
   color: #FFF;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
+/* State */
 
+/* Theme */
 
 

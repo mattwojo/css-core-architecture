@@ -10,10 +10,10 @@
         <link rel = "stylesheet" href = "style.css">
     </head>
     <body>
-      <header>
+      <header role = "banner">
         <img src =""></img>
         <h1>Pitchfork</h1>
-        <nav><h1 class "hidden">mainNav</h1>
+        <nav role = "navigation"><h1 class="hidden">mainNav</h1>
           <ul class = "inlineNavBar mainNav">
             <li>News</li>
             <li>Reviews</li>
@@ -22,7 +22,7 @@
           </ul>
         </nav>
       </header>
-      <main>
+      <main role ="main">
         <section class = "feature">
           <img src ="featureImage.jpg" class = "feature__mainImage"></img>
           <h1 class = "feature_title">Title</h1>
@@ -30,7 +30,7 @@
           <p class = "feature_teaser">Content</p>
         </section>
       </main>
-      <aside><h1 class = "hidden">Related Stories</h1>
+      <aside role="complimentary"><h1 class = "hidden">Related Stories</h1>
         <section class = "otherArticle">
           <h1>GUEST LISTS</h1>
           <h2>The Bug</h2>
@@ -48,14 +48,14 @@
         </section>
       </aside>
       <footer>
-        <section>
+        <nav = role="Navigation">
           <ul class = "inlineNavBar footerNav">
             <li>About Us</li>
             <li>Jobs</li>
             <li>RSS</li>
             <li>Advertising</li>
           </ul>
-        </section>
+        </nav>
       </footer>
     </body>
 </html>
