@@ -1,0 +1,15 @@
+.feature-image {
+  width: 100%;
+  margin: 0;
+  border: 1px solid black;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 10px 6px 8px 12px;
+}
+
+.feature-teaser {
+  margin: 0 6px 8px 12px;
+}
