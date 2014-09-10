@@ -4,15 +4,17 @@ header {
   padding: 12px;
 }
 
-.inlineNavBar {
+/* NAVIGATION */
+ul { /*remove inlineNavBar class*/
   list-style: none;
 }
 
-.mainNav {
+/* MAIN NAV */
+.mainnav {
   border-top: 4px solid black;
 }
 
-.inlineNavBar li {
+.mainnav li {
   display: inline-block;
   font-size: 2em;
   margin-right: 2em;
@@ -34,12 +36,8 @@ footer {
   clear: both;
 }
 
-.footerNav {
+.footernav {
   text-align: center;
   padding-top: 10px;
-}
-
-.footerNav li {
-  color: #FFF;
-  font-size: 1em;
+  color: #FFF; /*moved from footernav li,removed font-size*/
 }
