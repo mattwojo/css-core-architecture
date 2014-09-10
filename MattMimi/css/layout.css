@@ -1,0 +1,48 @@
+/* HEADER */
+header {
+  width: 100%;
+  padding: 12px;
+}
+
+/* NAVIGATION */
+ul { /*remove inlineNavBar class*/
+  list-style: none;
+}
+
+/* MAIN NAV */
+.mainnav {
+  border-top: 4px solid black;
+}
+
+.mainnav li {
+  display: inline-block;
+  font-size: 2em;
+  margin-right: 2em;
+}
+
+/* MAIN */
+main {
+  width: 68%;
+  margin: 10px 2% 10px 5%;
+  float: left;
+}
+
+@media (max-width: 600px){
+  main {
+    width: 100%;
+    display: block;
+    margin-left: 0px;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: darkgray;
+  clear: both;
+  text-align: center;
+  padding-top: 10px;
+  color: #FFF; /*removed font size and .footernav class*/
+}

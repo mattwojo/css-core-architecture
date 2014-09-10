@@ -1,27 +1,17 @@
-/* Reset */
-html, body, h1, h2, ul, li, p, header, nav, section, aside, footer {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/*Base*/
-html{
-  background-color: #FFF;
-  color: black;
+/* Base*/
+html {
+  /* background-color: #FFF; background color already white*/
+  /* color: black; base color is already black*/
   margin: 0 auto;
   padding: 0;
   font-family: Arial, sans-serif;
   font-size: 1em;
 }
 
-p{
+p {
   font-family: Times;
-  font-size: 1em;
-}
+  /* font-size: 1em; 1em already in html tag above */
+}*/
 
 .byLine{
   font-size: 1.3em;
@@ -33,49 +23,8 @@ p{
   display:none;
 }
 
-.inlineNavBar{
-  list-style: none;
-}
-
-/* Layout */
-
-header {
-  width: 100%;
-  padding: 12px;
-}
-
-main {
-  width: 68%;
-  margin: 10px 2% 10px 5%;
-  float: left;
-}
-
-aside {
-  margin: 10px 0 10px 0;
-  width: 21%;
-  float: left;
-  padding: 6px;
-}
-
-footer {
-  height: 100px;
-  width: 100%;
-  background-color: darkgray;
-  clear: both;
-}
-
 /* Module */
 
-.mainNav {
-  border-top: 4px solid black;
-}
-
-
-.inlineNavBar li {
-  display: inline-block;
-  font-size: 2em;
-  margin-right: 2em;
-}
 
 .feature__mainImage {
   width: 100%;
@@ -109,15 +58,6 @@ footer {
   margin-left: 10px;
 }
 
-.footerNav {
-  text-align: center;
-  padding-top: 10px;
-}
-
-.footerNav li {
-  color: #FFF;
-  font-size: 1em;
-}
 
 /* State */
 
