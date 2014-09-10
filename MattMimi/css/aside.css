@@ -6,14 +6,14 @@ aside {
   padding: 6px;
 }
 
-h1{
-  font-size: 2em;
+.otherArticle h1 {
+  font-size: 1.5em;
   text-transform: uppercase;
   color: red;
   margin-left: 10px;
 }
 
-h2{
+.otherArticle h2{
   font-size: 1.6em;
   margin-left: 10px;
 }
