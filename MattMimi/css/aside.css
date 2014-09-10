@@ -1,0 +1,50 @@
+/*Aside Module*/
+aside {
+  margin: 10px 0 10px 0;
+  width: 21%;
+  float: left;
+  padding: 6px;
+}
+
+h1{
+  font-size: 2em;
+  text-transform: uppercase;
+  color: red;
+  margin-left: 10px;
+}
+
+h2{
+  font-size: 1.6em;
+  margin-left: 10px;
+}
+
+p{
+  font-family: Times;
+  font-size: 1em;
+}
+
+.byLine{
+  color: darkgrey;
+  margin-left: 10px;
+}
+
+.hidden{
+  display:none;
+}
+
+.otherArticle {
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+
+/* State */
+
+@media (max-width: 600px){
+  aside{
+    width: 100%;
+    display: block;
+  }
+}
+
+
