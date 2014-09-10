@@ -19,7 +19,7 @@ ul { /*remove inlineNavBar class*/
   border-top: 4px solid black;
 }
 
-.mainnav li {
+.mainnav-item {
   display: inline-block;
   font-size: 2em;
   margin-right: 2em;
