@@ -4,6 +4,11 @@ header {
   padding: 12px;
 }
 
+h1{
+  font-size: 2em;
+  font-weight: 900;
+}
+
 /* NAVIGATION */
 ul { /*remove inlineNavBar class*/
   list-style: none;

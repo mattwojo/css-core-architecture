@@ -1,5 +1,5 @@
 /* Reset */
-html, body, h1, h2, ul, li, p, header, nav, section, aside, footer {
+html, body, ul, li, header, nav, section, aside, footer {
   margin: 0;
   padding: 0;
   border: 0;
