@@ -34,10 +34,7 @@ footer {
   width: 100%;
   background-color: darkgray;
   clear: both;
-}
-
-.footernav {
   text-align: center;
   padding-top: 10px;
-  color: #FFF; /*moved from footernav li,removed font-size*/
+  color: #FFF; /*removed font size and .footernav class*/
 }
