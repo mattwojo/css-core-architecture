@@ -1,0 +1,15 @@
+/* Reset */
+html, body, h1, h2, ul, li, p, header, nav, section, aside, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/*Base*/
+html{
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+}
